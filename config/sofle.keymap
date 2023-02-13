@@ -12,7 +12,6 @@
 
 
 / {
-    &out OUT_BLE
     keymap {
         compatible = "zmk,keymap";
 
