@@ -57,12 +57,8 @@
 // |     | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
 //              |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &trans    &trans    &trans   &trans    &trans  &trans
-&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                   &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
-&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                 &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
-&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans  &trans   &trans  &trans    &trans    &trans   &trans    &trans  &trans
-                        &trans       &trans       &trans       &trans  &trans   &trans  &trans    &trans    &trans   &trans
-            >;
+&kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp GRAVE &kp ESCAPE BL_TOGG BL_STEP BL_INC BL_DEC &kp G RGB_M_P RGB_M_B RGB_M_R RGB_M_SW &kp SEMICOLON &kp BACKSPACE &kp TAB RGB_TOG RGB_MOD RGB_RMOD RGB_HUI RGB_HUD RGB_M_SN RGB_M_K RGB_M_X RGB_M_G RGB_M_T &kp SINGLE_QUOTE &kp LEFT_SHIFT RGB_SAI RGB_SAD RGB_SPI RGB_SPD &kp B &kp C_MUTE &kp F20 &kp K &kp M &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_GUI &kp LEFT_ALT &kp LEFT_CONTROL &mo 2 &kp SPACE &kp ENTER &mo 3 &kp RIGHT_CONTROL &kp RIGHT_ALT &kp RIGHT_GUI
+          >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
